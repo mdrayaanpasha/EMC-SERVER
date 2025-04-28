@@ -108,7 +108,7 @@ class AdminController {
             });
 
         } catch (error) {
-            return sendErrorResponse(res, HttpStatus.INTERNAL_SERVER_ERROR, "something went wrong while creating organization");
+            return sendErrorResponse(res, HttpStatus.INTERNAL_SERVER_ERROR, error instanceof Error ? error.message : "something went wrong while creating organization");
         }
     }
 
