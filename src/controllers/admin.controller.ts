@@ -1,8 +1,10 @@
 import { Request, Response } from "express";
-import { PrismaClient } from "@prisma/client";
+
 import { z } from "zod";
 import bcrypt from "bcrypt";
+import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
+
 
 
 import { sendResponse, sendErrorResponse } from "../services/common";
