@@ -11,7 +11,8 @@ To get this project running on your local machine, follow these steps:
 
 ```bash
 git clone https://github.com/mdrayaanpasha/EMC-SERVER.git
-cd server
+cd EMC-SERVER
+
 ````
 
 ### 2\. Install dependencies
